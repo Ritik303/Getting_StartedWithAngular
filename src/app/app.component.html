@@ -1,5 +1,8 @@
 <div>
-  <h1> Hello From BridgeLabz </h1>
+  <h1> {{this.title}} </h1>
+<img [src]="imgUrl" (click)="onClick($event)"
+      alt="The bridgelabz logo"
+      />
 </div>
 
 <router-outlet />
